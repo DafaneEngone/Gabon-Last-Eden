@@ -1,0 +1,372 @@
+
+body
+{
+background-color: #FFFAFA;
+font-family: sans-serif;
+
+}
+
+/*  Section header  */
+header{
+    width: 100%;
+    height: 100px;
+    background: #B7CA79;
+}
+
+header .logo{
+    margin-top: 12px;
+    float: left;
+}
+
+header a.hamburger{
+    text-decoration: none;
+    display: none;
+    float: right;
+    margin-top: 41px;
+    width: 24px;
+    height: 19px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin-top: 40px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 50px;
+}
+
+header nav ul li a,
+header nav {
+    text-decoration: none;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+/*  Début de la section Hero  */
+
+.hero{
+    width: 75%;
+    height: 800px;
+    position: relative;
+    background: url('../img/hero.jpg') no-repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.hero .caption{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -105px;
+}
+
+.hero .caption h2{
+    color: #fff;
+    font-family: "P22 Corinthia";
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+.hero .caption h3{
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: -15px 0 0 25px;
+    left: 1px;
+}
+
+
+/*Corps*/
+
+#gallery ul{
+
+display: table;
+width: 150px;
+-webkit-animation: slideAnim 20s ease 0s infinite;
+-moz-animation: slideAnim 20s ease 0s infinite;
+-ms-animation: slideAnim 20s ease 0s infinite;
+-o-animation: slideAnim 20s ease 0s infinite;
+animation: slideAnim 20s ease 0s infinite;
+}
+
+#gallery ul li{
+display: table-cell;
+width:200px;
+}
+
+@keyframes slideAnim{
+from,11%,to {margin-left:-300px;}
+15%,26%{margin-left:-600px;}
+30%,41%{margin-left:-900px;}
+45%,56%{margin-left:-1200px;}
+65%,76%{margin-left:-1500px;}
+80%,91%{margin-left:-1800px;}
+99.99%{margin-left:-2100px;}
+}
+
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+article, aside
+{
+display: inline-block;
+vertical-align: top;
+text-align: justify;
+}
+
+article
+{
+width: 625px;
+margin-right: 15px;
+}
+
+article p
+{
+font-size: 20px;
+font-family: P22 Corinthia;
+}
+
+aside
+{
+position: relative;
+width: 600px;
+height: 450px;
+background-color: #B7CA79;
+box-shadow: 0px 2px 5px #1c1a19;
+border-radius: 5px;
+padding: 10px;
+color: white;
+font-size: 20px;
+}
+
+#mask
+{
+width: 300px;
+}
+#mask img
+{
+border: 1px solid #181818;
+
+}
+
+blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+.col-md-4{
+float: left;
+
+  }
+
+ #testimonial {
+  float: left;
+  width: 100%;
+  color: #52565b;
+}
+#testimonial .section-title h2 {
+  color: #f8e69f;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+#testimonial blockquote {
+  border-left: none;
+  padding: 20px;
+  background: #fff;
+  -webkit-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+#testimonial blockquote:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 12px 12px 0 12px;
+  border-color: #fff transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -12px;
+  left: 10%;
+}
+#testimonial .author {
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: #f8e69f;
+} 
+
+.col-md-6{
+position: relative;
+ min-height: 1px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.form-subscribe form-field {
+  position: relative;
+}
+
+.form-field input[type="email"] {
+  background: #fff;
+  padding: 5px 70px 5px 15px;
+  border: none;
+  height: 45px;
+  line-height: 30px;
+  width: 80%;
+}
+
+#form-subscribe input[type="submit"] { 
+  background: #3c4146;
+  border-radius: 2px;
+  color: #fff;
+  height: 45px;
+  padding: 5px 15px;
+  position: relative;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+
+/*  footer  */
+footer{
+    padding-top: 100px;
+    background: #B7CA79;
+}
+
+footer .footer > ul{
+    overflow: hidden;
+}
+
+footer .footer > ul > li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin-right: 60px;
+}
+
+footer .footer > ul > li:last-child{
+    margin-right: 0;
+}
+
+
+footer .footer > ul > li.links{
+    width: 197px;
+}
+
+footer ul li.links > ul > li{
+    display: block;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 27px;
+}
+
+footer ul li.links > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+footer .footer > ul > li.links li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+footer .footer > ul > li.about{
+    width: 327px;
+}
+
+footer ul li.about p{
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 34px;
+    margin-top: -9px;
+}
+
+footer ul li.about > ul > li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+footer ul li.about > ul > li:last-child{
+    margin-right: 0;
+}
+
+footer ul li.about > ul > li a{
+    background: url('../img/social_media.png') no-repeat;
+}
+
+footer ul li.about > ul > li a.facebook{
+    display: block;
+    width: 10px;
+    height: 18px;
+    background-position: 0 0;
+}
+footer ul li.about > ul > li a.twitter{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-position: -11px 0px;
+}
+footer ul li.about > ul > li a.google{
+    display: block;
+    width: 10px;
+    height: 18px;
+    background-position: -31px 0px;
+}
+footer ul li.about > ul > li a.skype{
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -43px 0px;
+}
+
+footer .copyrights{
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 60px;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: .5px;
+    border-top: 1px solid #82abd4;
+}
+
+footer .copyrights a.ph_link{
+    font-family: "Lato-bold", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
